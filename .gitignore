@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Segurança — NUNCA commitar
+.env
+.env.*
+!.env.example
+
+# Logs e testes locais
+*.log
+logs/
+
+# Editores
+.vscode/
+.idea/
+
+# Cache de testes
+.pytest_cache/
+.coverage
